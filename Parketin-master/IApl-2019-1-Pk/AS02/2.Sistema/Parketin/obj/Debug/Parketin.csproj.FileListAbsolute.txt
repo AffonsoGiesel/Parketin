@@ -1,0 +1,48 @@
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\Parketin.exe.config
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\Parketin.exe
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\Parketin.pdb
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\EntityFramework.dll
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\ExcelDataReader.dll
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\System.Security.Permissions.dll
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\EntityFramework.xml
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\ExcelDataReader.pdb
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\ExcelDataReader.xml
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\obj\Debug\Parketin.csproj.App.config
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\obj\Debug\Parketin.csprojAssemblyReference.cache
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\obj\Debug\Parketin.FormularioParketin.resources
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\obj\Debug\Parketin.Properties.Resources.resources
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\obj\Debug\Parketin.csproj.GenerateResource.cache
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\obj\Debug\Parketin.csproj.CoreCompileInputs.cache
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\obj\Debug\Parketin.csproj.CopyComplete
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\obj\Debug\Parketin.exe
+C:\Users\Priscila Silva\source\repos\Parketin\Parketin\obj\Debug\Parketin.pdb
+C:\Users\Vaio\Downloads\Parketin-master\Parketin-master\IApl-2019-1-Pk\AS01\2.Sistemas\Parketin\obj\Debug\Parketin.csprojAssemblyReference.cache
+C:\Users\Vaio\Downloads\Parketin-master\Parketin-master\IApl-2019-1-Pk\AS01\2.Sistemas\Parketin\obj\Debug\Parketin.exe.config
+C:\Users\Vaio\Downloads\Parketin-master\Parketin-master\IApl-2019-1-Pk\AS01\2.Sistemas\Parketin\obj\Debug\Parketin.FormularioParketin.resources
+C:\Users\Vaio\Downloads\Parketin-master\Parketin-master\IApl-2019-1-Pk\AS01\2.Sistemas\Parketin\obj\Debug\Parketin.Properties.Resources.resources
+C:\Users\Vaio\Downloads\Parketin-master\Parketin-master\IApl-2019-1-Pk\AS01\2.Sistemas\Parketin\obj\Debug\Parketin.csproj.GenerateResource.cache
+C:\Users\Vaio\Downloads\Parketin-master\Parketin-master\IApl-2019-1-Pk\AS01\2.Sistemas\Parketin\obj\Debug\Parketin.csproj.CoreCompileInputs.cache
+C:\Users\Vaio\Downloads\Parketin-master\Parketin-master\IApl-2019-1-Pk\AS01\2.Sistemas\Parketin\bin\Debug\Parketin.exe.config
+C:\Users\Vaio\Downloads\Parketin-master\Parketin-master\IApl-2019-1-Pk\AS01\2.Sistemas\Parketin\bin\Debug\Parketin.exe
+C:\Users\Vaio\Downloads\Parketin-master\Parketin-master\IApl-2019-1-Pk\AS01\2.Sistemas\Parketin\bin\Debug\Parketin.pdb
+C:\Users\Vaio\Downloads\Parketin-master\Parketin-master\IApl-2019-1-Pk\AS01\2.Sistemas\Parketin\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vaio\Downloads\Parketin-master\Parketin-master\IApl-2019-1-Pk\AS01\2.Sistemas\Parketin\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Vaio\Downloads\Parketin-master\Parketin-master\IApl-2019-1-Pk\AS01\2.Sistemas\Parketin\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Vaio\Downloads\Parketin-master\Parketin-master\IApl-2019-1-Pk\AS01\2.Sistemas\Parketin\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Vaio\Downloads\Parketin-master\Parketin-master\IApl-2019-1-Pk\AS01\2.Sistemas\Parketin\bin\Debug\Vse.Web.Serialization.dll
+C:\Users\Vaio\Downloads\Parketin-master\Parketin-master\IApl-2019-1-Pk\AS01\2.Sistemas\Parketin\bin\Debug\Vse.Web.Serialization.pdb
+C:\Users\Vaio\Downloads\Parketin-master\Parketin-master\IApl-2019-1-Pk\AS01\2.Sistemas\Parketin\obj\Debug\Parketin.csproj.CopyComplete
+C:\Users\Vaio\Downloads\Parketin-master\Parketin-master\IApl-2019-1-Pk\AS01\2.Sistemas\Parketin\obj\Debug\Parketin.exe
+C:\Users\Vaio\Downloads\Parketin-master\Parketin-master\IApl-2019-1-Pk\AS01\2.Sistemas\Parketin\obj\Debug\Parketin.pdb
