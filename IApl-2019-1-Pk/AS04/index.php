@@ -8,7 +8,7 @@
         } else if (file_exists('./models/' . $className . '.php')) {
             require_once('./models/' . $className . '.php');
         } else {
-            header("HTTP/1.0 404 Not Found");
+            http_response_code(404);
             die();
         }
     }
@@ -29,8 +29,9 @@
     if (file_exists('./language/' . $lang . '.php')) {
         require_once('./language/' . $lang . '.php');
         define('LANG_TEXT', $lang_text);
+        define('ERROR_MSG', $error_msg);
     } else {
-        header("HTTP/1.0 404 Not Found");
+        http_response_code(404);
         die();
     }
 
@@ -41,9 +42,13 @@
     $instance = new $controller();
 
     if (method_exists($controller, $action)) {
-        call_user_func_array(array($instance,$action),$urlArray);
+        try {
+            call_user_func_array(array($instance, $action), $urlArray);
+        } catch (ArgumentCountError $e) {
+            returnJsonError(400, ERROR_MSG[1]);
+        }
     } else {
-        header("HTTP/1.0 404 Not Found");
+        http_response_code(404);
         die();
     }
 

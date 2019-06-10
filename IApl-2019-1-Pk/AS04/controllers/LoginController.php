@@ -21,15 +21,14 @@
 
             if (!$user_login->isValidPassword($password))
             {
-                //TODO retornar erro de usuário não encontrado
-                echo "Unauthorized";
+                returnJsonError(401, ERROR_MSG[2]);
             }
             else
             {
                 $user_login = new Login($email);
                 $session_id = $user_login->createNewSession();
 
-                echo $session_id; //TODO
+                returnJson(array("email" => $email, "session_id" => $session_id));
             }
         }
 

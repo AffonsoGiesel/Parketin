@@ -9,7 +9,7 @@
     {
         if ($_SERVER['REQUEST_METHOD'] != $type)
         {
-            header("HTTP/1.0 404 Not Found"); //TODO
+            returnJsonError(404, ERROR_MSG[0]);
             die();
         }
     }
@@ -28,9 +28,23 @@
 
         if (sizeof($notSet) > 0)
         {
-            //TODO retornar json com erro.
+            returnJsonError(400, ERROR_MSG[1], array("fields" => $notSet));
             die();
         }
+    }
+
+    function returnJson($data)
+    {
+        returnJsonError(200, "", $data);
+    }
+
+    function returnJsonError($code, $message, $data = array())
+    {
+        $json = ["code" => $code, "error" => $message, "data" => $data];
+
+        http_response_code($code);
+        header('Content-Type: application/json');
+        echo json_encode($json);
     }
 
 ?>

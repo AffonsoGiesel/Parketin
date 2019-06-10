@@ -22,7 +22,7 @@
         $user_login = new Login($auth_email);
 
         if (!$user_login->isValidSession($auth_session)) {
-            header("HTTP/1.0 401 Unauthorized"); //TODO
+            returnJsonError(401, ERROR_MSG[2]);
             die();
         }
     }

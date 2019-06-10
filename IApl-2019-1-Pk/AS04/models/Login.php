@@ -11,8 +11,8 @@
             $q = $GLOBALS['pdo']->query("SELECT * FROM login WHERE email='$email';");
 
             if ($q->rowCount() < 1) {
-               header("HTTP/1.0 401 Unauthorized"); //TODO
-               die();
+                returnJsonError(401, ERROR_MSG[2]);
+                die();
             }
             else {
                 $login = $q->fetch(PDO::FETCH_ASSOC);
