@@ -1,5 +1,7 @@
 <?php
 
+    include_once('./core/Util.php');
+
     function __autoload($className) {
         if (file_exists('./controllers/' . $className . '.php')) {
             require_once('./controllers/' . $className . '.php');
@@ -9,17 +11,17 @@
         }
     }
 
-    $url = isset($_GET['url']) ? $_GET['url'] : 'br';
+    $url = isset($_GET['url']) ? $_GET['url'] : '';
     global $url;
 
     $urlArray = array();
     $urlArray = explode("/",$url);
 
-    $lang = strtolower($urlArray[0]);
+    $lang = isset($urlArray[0]) && trim($urlArray[0]) != false ? strtolower($urlArray[0]) : 'br';
     array_shift($urlArray);
-    $controller = isset($urlArray[0]) ? strtolower($urlArray[0]) : 'login';
+    $controller = isset($urlArray[0]) && trim($urlArray[0]) != false ? strtolower($urlArray[0]) : 'login';
     array_shift($urlArray);
-    $action = isset($urlArray[0]) ? strtolower($urlArray[0]) : 'home';
+    $action = isset($urlArray[0]) && trim($urlArray[0]) != false ? strtolower($urlArray[0]) : 'home';
     array_shift($urlArray);
 
     if (file_exists('./language/' . $lang . '.php')) {

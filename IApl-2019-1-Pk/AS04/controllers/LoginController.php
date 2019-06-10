@@ -6,6 +6,7 @@
         }
 
         function home() {
+            validateRequestType('GET');
             include('./views/LoginScreen.php');
         }
 
