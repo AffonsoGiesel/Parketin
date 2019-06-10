@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Parketin - Login</title>
+        <title>Parketin - <?=LANG_TEXT[0];?></title>
         <style>
             @import "http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700";
 
@@ -56,9 +56,9 @@
     <body>
         <div class="loginModal">
             <div class="title">Parketin</div>
-            <input id="email" type="text" placeholder="Email" />
-            <input id="password" type="password" placeholder="Senha" />
-            <button>Login</button>
+            <input id="email" type="text" placeholder="<?=LANG_TEXT[1];?>" />
+            <input id="password" type="password" placeholder="<?=LANG_TEXT[2];?>" />
+            <button><?=LANG_TEXT[3];?></button>
         </div>
     </body>
 </html>
