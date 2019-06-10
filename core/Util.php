@@ -9,7 +9,7 @@
     {
         if ($_SERVER['REQUEST_METHOD'] != $type)
         {
-            header("HTTP/1.0 404 Not Found"); //TODO
+            header("HTTP/1.0 404 Not Found");
             die();
         }
     }
@@ -28,7 +28,7 @@
 
         if (sizeof($notSet) > 0)
         {
-            //TODO retornar json com erro.
+            //retornar json com erro.
             die();
         }
     }

@@ -19,11 +19,22 @@
         $auth_email = isset($_POST['auth_email']) ? strtolower(trim($_POST['auth_email'])) : '';
         $auth_session = isset($_POST['auth_session']) ? trim($_POST['auth_session']) : '';
 
-        $user_login = new Login($auth_email);
+        $q = $pdo->query("SELECT * FROM login WHERE email='$auth_email';");
 
-        if (!$user_login->isValidSession($auth_session)) {
-            header("HTTP/1.0 401 Unauthorized"); //TODO
+        if (!$q)
+            echo "Falha ao comunicar com o banco de dados.";
+        else if ($q->rowCount() < 1) {
+            header("HTTP/1.0 401 Unauthorized");
             die();
+        }
+        else {
+            $login = $q->fetch(PDO::FETCH_ASSOC);
+
+            if ($login['session'] != $auth_session)
+            {
+                header("HTTP/1.0 401 Unauthorized");
+                die();
+            }
         }
     }
 
