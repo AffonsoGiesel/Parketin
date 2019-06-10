@@ -58,6 +58,7 @@ CREATE TABLE IF NOT EXISTS `login` (
   `email` varchar(100) NOT NULL,
   `senha` varchar(50) NOT NULL,
   `nivel` int(11) NOT NULL,
+  `session` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
