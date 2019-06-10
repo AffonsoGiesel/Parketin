@@ -20,6 +20,7 @@
     $urlArray = explode("/",$url);
 
     $lang = isset($urlArray[0]) && trim($urlArray[0]) != false ? strtolower($urlArray[0]) : 'br';
+    define('LANG', $lang);
     array_shift($urlArray);
     $controller = isset($urlArray[0]) && trim($urlArray[0]) != false ? strtolower($urlArray[0]) : 'login';
     array_shift($urlArray);

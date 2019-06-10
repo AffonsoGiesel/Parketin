@@ -2,7 +2,7 @@
 
     // ERROR MESSAGES
     $error_msg[0] = "Arquivo não encontrado.";
-    $error_msg[1] = "Os parâmetros da requisição não foram informados corretamente.";
+    $error_msg[1] = "Os parâmetros não foram informados corretamente.";
     $error_msg[2] = "Usuário não autenticado.";
 
     // LOGIN SCREEN
