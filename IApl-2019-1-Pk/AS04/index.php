@@ -9,6 +9,8 @@
         }
     }
 
+    include_once('./core/Database.php');
+
     $url = isset($_GET['url']) ? $_GET['url']:'login';
     global $url;
 
