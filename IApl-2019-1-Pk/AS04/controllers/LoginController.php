@@ -32,6 +32,11 @@
             }
         }
 
+        function homeLoggedIn() {
+            validateRequestType("GET");
+            include('./views/HomeContent.php');
+        }
+
         // Debug function to generate an encrypted password manually
         function sha($pass){
             echo sha1($pass);
