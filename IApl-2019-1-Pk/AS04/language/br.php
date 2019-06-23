@@ -43,4 +43,10 @@
     $lang_text['USAGE_PLATE'] = "Placa";
     $lang_text['USAGE_PRICE'] = "Valor";
 
+    // CLIENT
+    $lang_text['CLIENT_LIST_TITLE'] = "Lista de Clientes";
+    $lang_text['CLIENT_ID'] = "ID";
+    $lang_text['CLIENT_CPF'] = "CPF";
+    $lang_text['CLIENT_NAME'] = "Nome";
+
 ?>
