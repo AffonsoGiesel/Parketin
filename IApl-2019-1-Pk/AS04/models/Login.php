@@ -18,8 +18,8 @@
                 $login = $q->fetch(PDO::FETCH_ASSOC);
 
                 $this->_email = $login['email'];
-                $this->_level = $login['nivel'];
-                $this->_password = $login['senha'];
+                $this->_level = $login['access_level'];
+                $this->_password = $login['password'];
                 $this->_session = $login['session'];
             }
         }

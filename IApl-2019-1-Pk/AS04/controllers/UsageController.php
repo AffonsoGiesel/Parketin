@@ -8,10 +8,10 @@
         function listAll() {
             validateRequestType('GET');
 
-            $q = $GLOBALS['pdo']->query("SELECT u.id, u.dataEntrada, u.dataSaida, f.nome, v.placa, u.valorPagamento 
-                FROM uso_do_estacionamento u, funcionario f, veiculo v
-                WHERE f.cpf = u.funcionario AND u.veiculo = v.id
-                ORDER BY dataEntrada DESC ");
+            $q = $GLOBALS['pdo']->query("SELECT u.id, u.entry_date, u.exit_date, e.name, v.plate, u.price
+                FROM pl_usage u, employee e, vehicle v
+                WHERE e.cpf = u.employee AND u.vehicle = v.id
+                ORDER BY u.entry_date DESC");
 
             $result["edit"] = LANG_TEXT['THEME_BTN_EDIT'];
             $result["delete"] = LANG_TEXT['THEME_BTN_DELETE'];

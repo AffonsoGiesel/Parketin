@@ -26,7 +26,7 @@
     $lang_text['PL_LIST_TITLE'] = "Lista de Estacionamentos";
     $lang_text['PL_ID'] = "ID";
     $lang_text['PL_NAME'] = "Nome";
-    $lang_text['PL_SPOTS'] = "Vagas";
+    $lang_text['PL_SPACES'] = "Vagas";
     $lang_text['PL_LOCATION'] = "Local";
 
     // PARKING LOT USAGE
