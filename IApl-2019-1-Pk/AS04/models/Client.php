@@ -29,6 +29,17 @@
             return $pl;
         }
 
+        static function listAll() {
+            $q = $GLOBALS['pdo']->query("SELECT id, cpf, name FROM client ORDER BY id;");
+
+            if ($q->rowCount() < 1) {
+                return [];
+            }
+            else {
+                return $q->fetchAll(PDO::FETCH_NUM);
+            }
+        }
+
         function getId() { return $this->_id; }
         function getName() { return $this->_name; }
         function getCpf() { return $this->_cpf; }

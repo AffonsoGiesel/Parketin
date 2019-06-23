@@ -8,20 +8,13 @@
         function listAll() {
             validateRequestType('GET');
 
-            $q = $GLOBALS['pdo']->query("SELECT id, cpf, name FROM client ORDER BY id;");
-
             $result["edit"] = LANG_TEXT['THEME_BTN_EDIT'];
             $result["delete"] = LANG_TEXT['THEME_BTN_DELETE'];
 
             $result["page"] = LANG_TEXT['CLIENT_LIST_TITLE'];
             $result["columns"] = [LANG_TEXT['CLIENT_ID'], LANG_TEXT['CLIENT_CPF'], LANG_TEXT['CLIENT_NAME']];
 
-            if ($q->rowCount() < 1) {
-                $result["list"] = [];
-            }
-            else {
-                $result["list"] = $q->fetchAll(PDO::FETCH_NUM);
-            }
+            $result["list"] = Client::listAll();
 
             returnJson($result);
         }

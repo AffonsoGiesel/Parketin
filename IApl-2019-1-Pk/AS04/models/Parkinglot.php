@@ -31,6 +31,17 @@
             return $pl;
         }
 
+        static function listAll() {
+            $q = $GLOBALS['pdo']->query("SELECT id, name, spaces FROM parkinglot ORDER BY id;");
+
+            if ($q->rowCount() < 1) {
+                return [];
+            }
+            else {
+                return $q->fetchAll(PDO::FETCH_NUM);
+            }
+        }
+
         function getId() { return $this->_id; }
         function getName() { return $this->_name; }
         function getLocation() { return $this->_location; }
