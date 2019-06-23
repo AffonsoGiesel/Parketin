@@ -49,4 +49,12 @@
     $lang_text['CLIENT_CPF'] = "CPF";
     $lang_text['CLIENT_NAME'] = "Nome";
 
+    // EMPLOYEE
+    $lang_text['EMPLOYEE_LIST_TITLE'] = "Lista de Funcionários";
+    $lang_text['EMPLOYEE_CPF'] = "CPF";
+    $lang_text['EMPLOYEE_NAME'] = "Nome";
+    $lang_text['EMPLOYEE_RG'] = "RG";
+    $lang_text['EMPLOYEE_AGE'] = "Idade";
+    $lang_text['EMPLOYEE_PL'] = "Estacionamento";
+
 ?>

@@ -18,14 +18,13 @@
             if ($q->rowCount() < 1) {
                 returnJsonError(401, ERROR_MSG['UNAUTHORIZED']);
                 die();
-            }
-            else {
-                $login = $q->fetch(PDO::FETCH_ASSOC);
+            } else {
+                $result = $q->fetch(PDO::FETCH_ASSOC);
 
-                $pl->_id = $login['id'];
-                $pl->_name = $login['name'];
-                $pl->_location= $login['location'];
-                $pl->_spaces = $login['spaces'];
+                $pl->_id = $result['id'];
+                $pl->_name = $result['name'];
+                $pl->_location = $result['location'];
+                $pl->_spaces = $result['spaces'];
             }
 
             return $pl;
@@ -39,6 +38,17 @@
             }
             else {
                 return $q->fetchAll(PDO::FETCH_NUM);
+            }
+        }
+
+        static function listNames() {
+            $q = $GLOBALS['pdo']->query("SELECT id as value, name as title FROM parkinglot ORDER BY id;");
+
+            if ($q->rowCount() < 1) {
+                return [];
+            }
+            else {
+                return $q->fetchAll(PDO::FETCH_ASSOC);
             }
         }
 

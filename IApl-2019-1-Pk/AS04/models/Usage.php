@@ -18,8 +18,7 @@
 
             if ($q->rowCount() < 1) {
                 return [];
-            }
-            else {
+            } else {
                 return $q->fetchAll(PDO::FETCH_NUM);
             }
         }

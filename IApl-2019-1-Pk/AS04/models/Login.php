@@ -13,8 +13,7 @@
             if ($q->rowCount() < 1) {
                 returnJsonError(401, ERROR_MSG['UNAUTHORIZED']);
                 die();
-            }
-            else {
+            } else {
                 $login = $q->fetch(PDO::FETCH_ASSOC);
 
                 $this->_email = $login['email'];

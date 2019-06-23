@@ -11,22 +11,21 @@
         }
 
         static function load($id) {
-            $pl = new self();
+            $client = new self();
             $q = $GLOBALS['pdo']->query("SELECT * FROM client WHERE id='$id';");
 
             if ($q->rowCount() < 1) {
                 returnJsonError(401, ERROR_MSG['UNAUTHORIZED']);
                 die();
-            }
-            else {
-                $login = $q->fetch(PDO::FETCH_ASSOC);
+            } else {
+                $result = $q->fetch(PDO::FETCH_ASSOC);
 
-                $pl->_id = $login['id'];
-                $pl->_name = $login['name'];
-                $pl->_cpf= $login['cpf'];
+                $client->_id = $result['id'];
+                $client->_name = $result['name'];
+                $client->_cpf = $result['cpf'];
             }
 
-            return $pl;
+            return $client;
         }
 
         static function listAll() {

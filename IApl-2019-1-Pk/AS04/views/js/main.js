@@ -126,7 +126,7 @@ $(window).ready(function() {
             if (e["type"] === "text")
                 form.append('<input type="text" id="'+e["name"]+'" name="'+e["name"]+'" />');
             else {
-                var html = '<select id="'+e["name"]+' name="'+e["name"]+'">';
+                var html = '<select id="'+e["name"]+'" name="'+e["name"]+'">';
 
                 e["options"].forEach(function(q,w,r) {
                     html += '<option value="'+q["value"]+'">'+q["title"]+'</option>';
