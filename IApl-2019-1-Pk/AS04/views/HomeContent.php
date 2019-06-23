@@ -3,11 +3,11 @@
     <div id="logged-email" class="right"></div>
 </div>
 <div class="sidebar">
-    <div class="link-list" link="usage">Uso do estacionamento</div>
-    <div class="link-list" link="parkinglot">Estacionamentos</div>
-    <div class="link-list" link="client">Clientes</div>
-    <div class="link-list" link="employee">Funcionários</div>
-    <div class="link-list" link="vehicles">Veículos</div>
+    <div class="link-list" link="usage"><?=LANG_TEXT['THEME_USAGE'];?></div>
+    <div class="link-list" link="parkinglot"><?=LANG_TEXT['THEME_PARKING_LOT'];?></div>
+    <div class="link-list" link="client"><?=LANG_TEXT['THEME_CLIENTS'];?></div>
+    <div class="link-list" link="employee"><?=LANG_TEXT['THEME_EMPLOYEES'];?></div>
+    <div class="link-list" link="vehicles"><?=LANG_TEXT['THEME_VEHICLES'];?></div>
 </div>
 
 <div class="content">
@@ -24,51 +24,12 @@
     </form>
 
     <div>
-        <div class="title">Titulo</div>
+        <div class="title"></div>
         <table class="table table-bordered no-more-tables">
-            <thead>
-            <tr class="">
-                <th class="text-center" style="width:50%">Email</th>
-                <th class="text-center" style="width:20%">Nivel</th>
-                <th class="text-center" style="width:30%">Ações</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr class="">
-                <td class="text-center">admin@parketin.com</td>
-                <td class="text-right">9</td>
-                <td>
-                    <button>Editar</button>
-                    <button>Excluir</button>
-                </td>
-            </tr>
-            <tr class="">
-                <td class="text-center">maria@parketin.com</td>
-                <td class="text-right">3</td>
-                <td>
-                    <button>Editar</button>
-                    <button>Excluir</button>
-                </td>
-            </tr>
-            <tr class="">
-                <td class="text-center">jose@parketin.com</td>
-                <td class="text-right">3</td>
-                <td>
-                    <button>Editar</button>
-                    <button>Excluir</button>
-                </td>
-            </tr>
-            <tr class="">
-                <td>ana@parketin.com</td>
-                <td>0</td>
-                <td>
-                    <button>Editar</button>
-                    <button>Excluir</button>
-                </td>
-            </tr>
-            </tbody>
+            <thead><tr></tr></thead>
+            <tbody></tbody>
         </table>
         <br />
-        <button id="new">Novo</button>
+        <button id="new"><?=LANG_TEXT['THEME_BTN_ADD_NEW'];?></button>
     </div>
 </div>

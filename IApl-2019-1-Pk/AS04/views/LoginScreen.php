@@ -9,9 +9,9 @@
         <div class="loginModal">
             <div class="title-site">Parketin</div>
             <div class="errorMsg"></div>
-            <input id="email" type="text" placeholder="<?=LANG_TEXT[1];?>" />
-            <input id="password" type="password" placeholder="<?=LANG_TEXT[2];?>" />
-            <button id="login"><?=LANG_TEXT[3];?></button>
+            <input id="email" type="text" placeholder="<?=LANG_TEXT['LOGIN_EMAIL'];?>" />
+            <input id="password" type="password" placeholder="<?=LANG_TEXT['LOGIN_PASSWORD'];?>" />
+            <button id="login"><?=LANG_TEXT['LOGIN_ENTER'];?></button>
         </div>
     </body>
 </html>

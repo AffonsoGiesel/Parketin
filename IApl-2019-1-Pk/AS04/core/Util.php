@@ -9,7 +9,7 @@
     {
         if ($_SERVER['REQUEST_METHOD'] != $type)
         {
-            returnJsonError(404, ERROR_MSG[0]);
+            returnJsonError(404, ERROR_MSG['NOT_FOUND']);
             die();
         }
     }
@@ -28,7 +28,7 @@
 
         if (sizeof($notSet) > 0)
         {
-            returnJsonError(400, ERROR_MSG[1], array("fields" => $notSet));
+            returnJsonError(400, ERROR_MSG['PARAMS'], array("fields" => $notSet));
             die();
         }
     }

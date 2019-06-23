@@ -1,43 +1,41 @@
 <?php
 
     // ERROR MESSAGES
-    $error_msg[0] = "Arquivo não encontrado.";
-    $error_msg[1] = "Os parâmetros não foram informados corretamente.";
-    $error_msg[2] = "Usuário não autenticado.";
+    $error_msg['NOT_FOUND'] = "Arquivo não encontrado.";
+    $error_msg['PARAMS'] = "Os parâmetros não foram informados corretamente.";
+    $error_msg['UNAUTHORIZED'] = "Usuário não autenticado.";
 
     // LOGIN SCREEN
-    $lang_text[0] = "Login";
-    $lang_text[1] = "Email";
-    $lang_text[2] = "Senha";
-    $lang_text[3] = "Entrar";
+    $lang_text['LOGIN_LOGIN'] = "Login";
+    $lang_text['LOGIN_EMAIL'] = "Email";
+    $lang_text['LOGIN_PASSWORD'] = "Senha";
+    $lang_text['LOGIN_ENTER'] = "Entrar";
 
     // TEMPLATE
-    $lang_text[4] = "Estacionamentos";
-    $lang_text[5] = "Uso dos Estacionamentos";
-    $lang_text[6] = "";
-    $lang_text[7] = "";
-    $lang_text[8] = "";
+    $lang_text['THEME_USAGE'] = "Uso dos Estacionamentos";
+    $lang_text['THEME_PARKING_LOT'] = "Estacionamentos";
+    $lang_text['THEME_CLIENTS'] = "Clientes";
+    $lang_text['THEME_EMPLOYEES'] = "Funcionários";
+    $lang_text['THEME_VEHICLES'] = "Veículos";
 
-    $lang_text[9] = "Adicionar novo";
-    $lang_text[10] = "Editar";
-    $lang_text[11] = "Excluir";
+    $lang_text['THEME_BTN_ADD_NEW'] = "Adicionar novo";
+    $lang_text['THEME_BTN_EDIT'] = "Editar";
+    $lang_text['THEME_BTN_DELETE'] = "Excluir";
 
     // PARKING LOT
-
-    $lang_text[12] = "Lista de Estacionamentos";
-    $lang_text[13] = "ID";
-    $lang_text[14] = "Nome";
-    $lang_text[15] = "Vagas";
-    $lang_text[16] = "Local";
+    $lang_text['PL_LIST_TITLE'] = "Lista de Estacionamentos";
+    $lang_text['PL_ID'] = "ID";
+    $lang_text['PL_NAME'] = "Nome";
+    $lang_text['PL_SPOTS'] = "Vagas";
+    $lang_text['PL_LOCATION'] = "Local";
 
     // PARKING LOT USAGE
-
-    $lang_text[17] = "Lista de Usos dos Estacionamentos";
-    $lang_text[18] = "Entrada";
-    $lang_text[19] = "Saída";
-    $lang_text[20] = "Funcionário";
-    $lang_text[21] = "Placa";
-    $lang_text[22] = "Valor";
-
+    $lang_text['USAGE_LIST_TITLE'] = "Lista de Usos dos Estacionamentos";
+    $lang_text['USAGE_ID'] = "ID";
+    $lang_text['USAGE_ENTRY_DATE'] = "Entrada";
+    $lang_text['USAGE_EXIT_DATE'] = "Saída";
+    $lang_text['USAGE_EMPLOYEE'] = "Funcionário";
+    $lang_text['USAGE_PLATE'] = "Placa";
+    $lang_text['USAGE_PRICE'] = "Valor";
 
 ?>

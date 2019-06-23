@@ -11,7 +11,7 @@
             $q = $GLOBALS['pdo']->query("SELECT * FROM login WHERE email='$email';");
 
             if ($q->rowCount() < 1) {
-                returnJsonError(401, ERROR_MSG[2]);
+                returnJsonError(401, ERROR_MSG['UNAUTHORIZED']);
                 die();
             }
             else {

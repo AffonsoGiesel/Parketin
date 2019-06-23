@@ -21,7 +21,7 @@
 
             if (!$user_login->isValidPassword($password))
             {
-                returnJsonError(401, ERROR_MSG[2]);
+                returnJsonError(401, ERROR_MSG['LOGIN_ENTER']);
             }
             else
             {

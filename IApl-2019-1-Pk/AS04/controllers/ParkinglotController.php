@@ -10,12 +10,11 @@
 
             $q = $GLOBALS['pdo']->query("SELECT id, nome, vagas FROM estacionamento ORDER BY id;");
 
-            $result["new"] = LANG_TEXT[9];
-            $result["edit"] = LANG_TEXT[10];
-            $result["delete"] = LANG_TEXT[11];
+            $result["edit"] = LANG_TEXT['THEME_BTN_EDIT'];
+            $result["delete"] = LANG_TEXT['THEME_BTN_DELETE'];
 
-            $result["page"] = LANG_TEXT[12];
-            $result["columns"] = [LANG_TEXT[13], LANG_TEXT[14], LANG_TEXT[15]];
+            $result["page"] = LANG_TEXT['PL_LIST_TITLE'];
+            $result["columns"] = [LANG_TEXT['PL_ID'], LANG_TEXT['PL_NAME'], LANG_TEXT['PL_SPOTS']];
 
             if ($q->rowCount() < 1) {
                 $result["list"] = [];

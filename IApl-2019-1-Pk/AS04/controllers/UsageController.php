@@ -8,17 +8,16 @@
         function listAll() {
             validateRequestType('GET');
 
-            $q = $GLOBALS['pdo']->query("SELECT dataEntrada, dataSaida, f.nome, v.placa, valorPagamento 
+            $q = $GLOBALS['pdo']->query("SELECT u.id, u.dataEntrada, u.dataSaida, f.nome, v.placa, u.valorPagamento 
                 FROM uso_do_estacionamento u, funcionario f, veiculo v
                 WHERE f.cpf = u.funcionario AND u.veiculo = v.id
                 ORDER BY dataEntrada DESC ");
 
-            $result["new"] = LANG_TEXT[9];
-            $result["edit"] = LANG_TEXT[10];
-            $result["delete"] = LANG_TEXT[11];
+            $result["edit"] = LANG_TEXT['THEME_BTN_EDIT'];
+            $result["delete"] = LANG_TEXT['THEME_BTN_DELETE'];
 
-            $result["page"] = LANG_TEXT[17];
-            $result["columns"] = [LANG_TEXT[18], LANG_TEXT[19], LANG_TEXT[20], LANG_TEXT[21], LANG_TEXT[22]];
+            $result["page"] = LANG_TEXT['USAGE_LIST_TITLE'];
+            $result["columns"] = [LANG_TEXT['USAGE_ID'], LANG_TEXT['USAGE_ENTRY_DATE'], LANG_TEXT['USAGE_EXIT_DATE'], LANG_TEXT['USAGE_EMPLOYEE'], LANG_TEXT['USAGE_PLATE'], LANG_TEXT['USAGE_PRICE']];
 
             if ($q->rowCount() < 1) {
                 $result["list"] = [];

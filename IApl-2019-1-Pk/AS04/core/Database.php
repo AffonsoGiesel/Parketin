@@ -22,7 +22,7 @@
     //    $user_login = new Login($auth_email);
 
     //    if (!$user_login->isValidSession($auth_session)) {
-    //        returnJsonError(401, ERROR_MSG[2]);
+    //        returnJsonError(401, ERROR_MSG['UNAUTHORIZED']);
     //        die();
     //    }
     //}

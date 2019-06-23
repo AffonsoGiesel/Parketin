@@ -39,7 +39,6 @@ $(window).ready(function() {
                 $(".content > form").hide();
                 $(".content > div").show();
                 $(".content > div .title").html(data["data"]["page"]);
-                $(".content > div #new").html(data["data"]["new"]);
                 $("thead tr").html("");
 
                 data["data"]["columns"].forEach(function(e,i,a){

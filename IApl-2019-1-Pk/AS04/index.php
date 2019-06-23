@@ -46,7 +46,7 @@
         try {
             call_user_func_array(array($instance, $action), $urlArray);
         } catch (ArgumentCountError $e) {
-            returnJsonError(400, ERROR_MSG[1]);
+            returnJsonError(400, ERROR_MSG['PARAMS']);
         }
     } else {
         http_response_code(404);
