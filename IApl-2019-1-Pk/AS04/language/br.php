@@ -57,4 +57,14 @@
     $lang_text['EMPLOYEE_AGE'] = "Idade";
     $lang_text['EMPLOYEE_PL'] = "Estacionamento";
 
+    // VEHICLE
+    $lang_text['VEHICLE_LIST_TITLE'] = "Lista de Veículos";
+    $lang_text['VEHICLE_ID'] = "ID";
+    $lang_text['VEHICLE_PLATE'] = "Placa";
+    $lang_text['VEHICLE_OWNER'] = "Dono";
+    $lang_text['VEHICLE_COLOR'] = "Cor";
+    $lang_text['VEHICLE_TYPE'] = "Tipo";
+    $lang_text['VEHICLE_MANUFACTURE'] = "Fabricante";
+    $lang_text['VEHICLE_MODEL'] = "Modelo";
+
 ?>

@@ -39,6 +39,17 @@
             }
         }
 
+        static function listNames() {
+            $q = $GLOBALS['pdo']->query("SELECT id as value, name as title FROM client ORDER BY id;");
+
+            if ($q->rowCount() < 1) {
+                return [];
+            }
+            else {
+                return $q->fetchAll(PDO::FETCH_ASSOC);
+            }
+        }
+
         function getId() { return $this->_id; }
         function getName() { return $this->_name; }
         function getCpf() { return $this->_cpf; }

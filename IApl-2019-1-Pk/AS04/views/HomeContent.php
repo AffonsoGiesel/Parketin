@@ -5,9 +5,9 @@
 <div class="sidebar">
     <div class="link-list" link="usage"><?=LANG_TEXT['THEME_USAGE'];?></div>
     <div class="link-list" link="parkinglot"><?=LANG_TEXT['THEME_PARKING_LOT'];?></div>
-    <div class="link-list" link="client"><?=LANG_TEXT['THEME_CLIENTS'];?></div>
     <div class="link-list" link="employee"><?=LANG_TEXT['THEME_EMPLOYEES'];?></div>
-    <div class="link-list" link="vehicles"><?=LANG_TEXT['THEME_VEHICLES'];?></div>
+    <div class="link-list" link="client"><?=LANG_TEXT['THEME_CLIENTS'];?></div>
+    <div class="link-list" link="vehicle"><?=LANG_TEXT['THEME_VEHICLES'];?></div>
 </div>
 
 <div class="content">
