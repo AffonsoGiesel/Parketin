@@ -11,16 +11,15 @@
 </div>
 
 <div class="content">
-    <form>
-        <div class="title">Titulo</div>
-        <label>Teste</label>
-        <input type="text" placeholder="Teste" />
-        <label>Teste</label>
-        <select>
-            <option>1</option>
-            <option>2</option>
-        </select>
-        <div style="text-align: center;"><button>Submit</button></div>
+    <form id="newRecord">
+        <div class="title"><?=LANG_TEXT['THEME_NEW_RECORD'];?></div>
+        <div class="inputGroup"></div>
+        <div style="text-align: center;"><button><?=LANG_TEXT['THEME_CREATE_RECORD'];?></button></div>
+    </form>
+    <form id="updateRecord">
+        <div class="title"><?=LANG_TEXT['THEME_UPDATE_RECORD'];?></div>
+        <div class="inputGroup"></div>
+        <div style="text-align: center;"><button id="update"><?=LANG_TEXT['THEME_SAVE_RECORD'];?></button></div>
     </form>
 
     <div>

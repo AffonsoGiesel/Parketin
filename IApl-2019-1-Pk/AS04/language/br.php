@@ -22,12 +22,17 @@
     $lang_text['THEME_BTN_EDIT'] = "Editar";
     $lang_text['THEME_BTN_DELETE'] = "Excluir";
 
+    $lang_text['THEME_NEW_RECORD'] = "Novo registro";
+    $lang_text['THEME_CREATE_RECORD'] = "Criar registo";
+    $lang_text['THEME_UPDATE_RECORD'] = "Alterar registro";
+    $lang_text['THEME_SAVE_RECORD'] = "Salvar registro";
+
     // PARKING LOT
     $lang_text['PL_LIST_TITLE'] = "Lista de Estacionamentos";
     $lang_text['PL_ID'] = "ID";
     $lang_text['PL_NAME'] = "Nome";
     $lang_text['PL_SPACES'] = "Vagas";
-    $lang_text['PL_LOCATION'] = "Local";
+    $lang_text['PL_LOCATION'] = "Localização";
 
     // PARKING LOT USAGE
     $lang_text['USAGE_LIST_TITLE'] = "Lista de Usos dos Estacionamentos";
