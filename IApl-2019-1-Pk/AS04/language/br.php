@@ -10,6 +10,8 @@
     $lang_text['LOGIN_EMAIL'] = "Email";
     $lang_text['LOGIN_PASSWORD'] = "Senha";
     $lang_text['LOGIN_ENTER'] = "Entrar";
+    $lang_text['LOGIN_LIST_TITLE'] = "Lista de Contas";
+    $lang_text['LOGIN_ACCESS_LEVEL'] = "Nível de Acesso";
 
     // TEMPLATE
     $lang_text['THEME_USAGE'] = "Uso dos Estacionamentos";
@@ -17,6 +19,7 @@
     $lang_text['THEME_CLIENTS'] = "Clientes";
     $lang_text['THEME_EMPLOYEES'] = "Funcionários";
     $lang_text['THEME_VEHICLES'] = "Veículos";
+    $lang_text['THEME_LOGIN'] = "Contas";
 
     $lang_text['THEME_BTN_ADD_NEW'] = "Adicionar novo";
     $lang_text['THEME_BTN_EDIT'] = "Editar";

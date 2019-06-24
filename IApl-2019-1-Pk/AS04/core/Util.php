@@ -20,7 +20,7 @@
 
         foreach($variables as $var)
         {
-            if (!isset($_POST[$var]) || trim($_POST[$var]) == false)
+            if (!isset($_POST[$var]) || strlen(trim($_POST[$var])) <= 0)
             {
                 $notSet[] = $var;
             }

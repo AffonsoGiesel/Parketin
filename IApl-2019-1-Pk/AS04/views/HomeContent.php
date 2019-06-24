@@ -8,6 +8,7 @@
     <div class="link-list" link="employee"><?=LANG_TEXT['THEME_EMPLOYEES'];?></div>
     <div class="link-list" link="client"><?=LANG_TEXT['THEME_CLIENTS'];?></div>
     <div class="link-list" link="vehicle"><?=LANG_TEXT['THEME_VEHICLES'];?></div>
+    <div class="link-list" link="login"><?=LANG_TEXT['THEME_LOGIN'];?></div>
 </div>
 
 <div class="content">
