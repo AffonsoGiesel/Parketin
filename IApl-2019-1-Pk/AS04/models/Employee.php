@@ -44,6 +44,17 @@
             }
         }
 
+        static function listNames() {
+            $q = $GLOBALS['pdo']->query("SELECT cpf as value, name as title FROM employee ORDER BY name;");
+
+            if ($q->rowCount() < 1) {
+                return [];
+            }
+            else {
+                return $q->fetchAll(PDO::FETCH_ASSOC);
+            }
+        }
+
         function getCpf() { return $this->_cpf; }
         function getName() { return $this->_name; }
         function getRg() { return $this->_rg; }

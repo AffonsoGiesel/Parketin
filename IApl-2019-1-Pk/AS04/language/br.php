@@ -42,6 +42,8 @@
     $lang_text['USAGE_EMPLOYEE'] = "Funcionário";
     $lang_text['USAGE_PLATE'] = "Placa";
     $lang_text['USAGE_PRICE'] = "Valor";
+    $lang_text['USAGE_ENTRY_DATE_FORM'] = "Entrada (AAAA-MM-DD HH:MM:SS)";
+    $lang_text['USAGE_EXIT_DATE_FORM'] = "Saída (AAAA-MM-DD HH:MM:SS)";
 
     // CLIENT
     $lang_text['CLIENT_LIST_TITLE'] = "Lista de Clientes";
