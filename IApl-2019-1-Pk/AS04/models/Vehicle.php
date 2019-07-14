@@ -37,7 +37,7 @@
         }
 
         static function listAll() {
-            $q = $GLOBALS['pdo']->query("SELECT v.id, v.plate, v.model, v.color, c.name FROM vehicle v, CLIENT c 
+            $q = $GLOBALS['pdo']->query("SELECT v.id, v.plate, v.model, v.color, c.name FROM vehicle v, `client` c 
                 WHERE v.OWNER = c.id ORDER BY id;");
 
             if ($q->rowCount() < 1) {
